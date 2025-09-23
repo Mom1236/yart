@@ -25,7 +25,7 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: "Traplanta - Premium Vape Products | Yart.Shop",
   description:
-    "Discover premium vape products, Add Nic options, and THC selections at Traplanta. Fast shipping and authentic quality from Yart.Shop.",
+    "Discover premium vape productsand dispos at Traplanta. Fast shipping and authentic quality from Yart.Shop.",
   generator: "v0.app",
 }
 
