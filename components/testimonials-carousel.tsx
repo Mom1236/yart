@@ -17,15 +17,15 @@ const testimonials = [
     id: 2,
     name: "Mike Chen",
     rating: 5,
-    text: "VapeHub has the best customer service I've ever experienced. They helped me choose the perfect product and it arrived the next day. Highly recommend!",
-    location: "Los Angeles, CA",
+    text: "Traplanta has the best customer service I've ever experienced. They helped me choose the perfect product and it arrived the next day. Highly recommend!",
+    location: "Houston, TX",
   },
   {
     id: 3,
     name: "Emily Rodriguez",
     rating: 5,
     text: "The Blue Razz Grape Ice flavor is absolutely perfect. Great value with the 2 for $50 deal. Will definitely be ordering again soon!",
-    location: "Miami, FL",
+    location: "Fulshear, TX",
   },
   {
     id: 4,
