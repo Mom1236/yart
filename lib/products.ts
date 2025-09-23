@@ -104,7 +104,6 @@ export const products: Product[] = [
   category: "nicotine",
 },
 
-
   // Geek Bar Pulse X 15k
   {
     id: "geek-bar-pulse-x-15k",
