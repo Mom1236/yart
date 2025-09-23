@@ -24,11 +24,12 @@ export default function HomePage() {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-balance mb-6">
-              Your Order
-              <span className="text-primary block">On Time</span>
+              Elevate Your
+              <span className="text-primary block">Vaping Journey</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 text-pretty">
-              Shop brand-name disposables and hidden nic options with lightning-fast delivery. At Yart.Shop, quality and satisfaction always come first
+              Discover premium vape products, Add Nic options, and THC selections with authentic quality and
+              lightning-fast delivery at Yart.Shop. Your satisfaction is our priority.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
