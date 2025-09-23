@@ -73,8 +73,6 @@ export function ProductCard({ product }: ProductCardProps) {
         <div className="absolute top-4 right-4">{getStatusBadge()}</div>
         
           </div>
-        </div>
-      </div>
 
       <CardContent className="p-6">
         <div className="mb-4">
