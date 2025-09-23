@@ -32,12 +32,6 @@ export function Navigation() {
             <Link href="/menu" className="text-foreground hover:text-primary transition-colors">
               Menu
             </Link>
-            <Link href="/nic" className="text-foreground hover:text-primary transition-colors">
-              Nic
-            </Link>
-            <Link href="/thc" className="text-foreground hover:text-primary transition-colors">
-              THC
-            </Link>
             <Link href="/about" className="text-foreground hover:text-primary transition-colors">
               About
             </Link>
