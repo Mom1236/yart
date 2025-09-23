@@ -100,7 +100,7 @@ export const products: Product[] = [
     "Blackberry Blueberry"
   ],
   status: "preorder",
-  image: "/geekx.jpg", // ✅ use geek.jpg from /public or rename if you want unique art
+  image: "/geekx.jpg",
   category: "nicotine",
 },
 
