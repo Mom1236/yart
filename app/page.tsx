@@ -24,11 +24,11 @@ export default function HomePage() {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-balance mb-6">
-              The Only Plug You Can
-              <span className="text-primary block">Rely On</span>
+              Your Order
+              <span className="text-primary block">On Time</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 text-pretty">
-          Shop premium brand-name disposables and rare nic options with lightning-fast delivery. At Yart.Shop, quality and satisfaction always come first.
+              Shop brand-name disposables and hidden nic options with lightning-fast delivery. At Yart.Shop, quality and satisfaction always come first
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -53,7 +53,11 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Why Choose Traplanta?</h2>
-            
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              We are committed to providing the best vaping experience with premium products, Add Nic options, THC
+              selections, and exceptional service.
+            </p>
+          </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="p-6 text-center hover:shadow-lg transition-shadow animate-zoom-in">
