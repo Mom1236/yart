@@ -70,7 +70,14 @@ export function ProductCard({ product }: ProductCardProps) {
           height={400}
           className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
         />
-       
+        <div className="absolute top-4 right-4">{getStatusBadge()}</div>
+        <div className="absolute top-4 left-4">
+          <div className="flex items-center space-x-1 bg-background/80 backdrop-blur-sm rounded-full px-2 py-1">
+            <Star className="w-4 h-4 text-yellow-400 fill-current" />
+            <span className="text-sm font-medium">4.8</span>
+          </div>
+        </div>
+      </div>
 
       <CardContent className="p-6">
         <div className="mb-4">
