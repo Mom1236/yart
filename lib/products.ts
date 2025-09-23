@@ -29,7 +29,7 @@ export const products: Product[] = [
     flavors: ["Raspberry Watermelon", "Blue Razz Grape Ice", "Peach Berry", "Scary Berry"],
     status: "preorder",
     image: "/off.jpg",
-    category: "disposable",
+    category: "nicotine",
   },
 
   // Lost Mary MT35000 Turbo
