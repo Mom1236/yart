@@ -6,6 +6,7 @@ import { Suspense } from "react"
 import { CartProvider } from "@/hooks/use-cart"
 import { Footer } from "@/components/footer"
 import { PasswordGate } from "@/components/password-gate"
+import Script from "next/script"   // ✅ import Script
 import "./globals.css"
 
 const poppins = Poppins({
@@ -25,7 +26,7 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: "Traplanta - Premium Vape Products | Yart.Shop",
   description:
-    "Discover premium vape productsand dispos at Traplanta. Fast shipping and authentic quality from Yart.Shop.",
+    "Discover premium vape products and dispos at Traplanta. Fast shipping and authentic quality from Yart.Shop.",
   generator: "v0.app",
 }
 
@@ -44,6 +45,21 @@ export default function RootLayout({
           </CartProvider>
         </PasswordGate>
         <Analytics />
+
+        {/* ✅ Tawk.to Script */}
+        <Script id="tawk-to" strategy="afterInteractive">
+          {`
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+              var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+              s1.async=true;
+              s1.src='https://embed.tawk.to/68d2e6422528731922c40faa/1j5rt6t78';
+              s1.charset='UTF-8';
+              s1.setAttribute('crossorigin','*');
+              s0.parentNode.insertBefore(s1,s0);
+            })();
+          `}
+        </Script>
       </body>
     </html>
   )
