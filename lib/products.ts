@@ -52,7 +52,7 @@ export const products: Product[] = [
       "Strawmelon Peach",
     ],
     status: "preorder",
-    image: "/lost-mary-35000.jpg",
+    image: "/lost.jpg",
     category: "nicotine",
   },
 
