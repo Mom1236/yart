@@ -28,7 +28,7 @@ export const products: Product[] = [
     ],
     flavors: ["Raspberry Watermelon", "Blue Razz Grape Ice", "Peach Berry", "Scary Berry"],
     status: "preorder",
-    image: "/public/off.jpg",
+    image: "public/off.jpg",
     category: "disposable",
   },
 
