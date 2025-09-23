@@ -24,8 +24,8 @@ export default function HomePage() {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-balance mb-6">
-              Your Next
-              <span className="text-primary block">Permanent Plug</span>
+              The Only Plug You Can
+              <span className="text-primary block">Rely On</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 text-pretty">
           Shop premium brand-name disposables and rare nic options with lightning-fast delivery. At Yart.Shop, quality and satisfaction always come first.
