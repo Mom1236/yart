@@ -103,7 +103,7 @@ export const products: Product[] = [
       "Frozen Pina Colada (Frozen Edition)",
     ],
     status: "preorder",
-    image: "/geek-bar-pulse-x-15k.jpg",
+    image: "/geekx.jpg",
     category: "nicotine",
   },
 
@@ -131,7 +131,7 @@ export const products: Product[] = [
       "Sour Tangie / NYC Sour / Passion Fruit",
     ],
     status: "preorder",
-    image: "/boutiq-v5.jpg",
+    image: "/v5.png",
     category: "thc",
   },
 
@@ -170,7 +170,7 @@ export const products: Product[] = [
       "Forbidden Punch",
     ],
     status: "preorder",
-    image: "/cali-clear.jpg",
+    image: "/calis.jpg",
     category: "thc",
   },
 
@@ -199,7 +199,7 @@ export const products: Product[] = [
       "Mango Tango x Cherry Fritter",
     ],
     status: "preorder",
-    image: "/big-chief-duos.jpg",
+    image: "/bigc.jpg",
     category: "thc",
   },
 
@@ -228,7 +228,7 @@ export const products: Product[] = [
       "Mango Frost – Hybrid",
     ],
     status: "preorder",
-    image: "/ace-ultra.jpg",
+    image: "/ace.jpg",
     category: "thc",
   },
 
@@ -255,7 +255,7 @@ export const products: Product[] = [
       "Pineapple Express",
     ],
     status: "sold-out",
-    image: "/muha-meds.jpg",
+    image: "/muha.jpg",
     category: "thc",
   },
 ]
