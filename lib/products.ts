@@ -79,6 +79,31 @@ export const products: Product[] = [
     image: "/fifty.jpeg",
     category: "nicotine",
   },
+ // Geek Bar Pulse X 25k
+{
+  id: "geek-bar-pulse-x-25k",
+  name: "Geek Bar Pulse X (25k Hits)",
+  description: "High-capacity 25,000 puff disposable with rare and in-demand flavors.",
+  basePrice: 35,
+  pricing: [
+    { quantity: 1, price: 35, label: "1 for $35" },
+    { quantity: 2, price: 60, label: "2 for $60" },
+  ],
+  flavors: [
+    "Sour Straws",
+    "Orange Fcuking Fab",
+    "Blackberry Burst (Blow Pop)",
+    "Sour Apple Ice",
+    "Blue Razz Ice",
+    "Strawberry Water",
+    "Strawberry Jam (Jam Edition)",
+    "Blackberry Blueberry"
+  ],
+  status: "preorder",
+  image: "/geekx.jpg", // ✅ use geek.jpg from /public or rename if you want unique art
+  category: "nicotine",
+},
+
 
   // Geek Bar Pulse X 15k
   {
@@ -103,7 +128,7 @@ export const products: Product[] = [
       "Frozen Pina Colada (Frozen Edition)",
     ],
     status: "preorder",
-    image: "/geekx.jpg",
+    image: "/geek.jpg",
     category: "nicotine",
   },
 
