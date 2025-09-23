@@ -47,22 +47,7 @@ export default function NicPage() {
           </div>
         </Card>
 
-        {/* Quick Filters */}
-        <div className="flex flex-wrap gap-4 mb-8">
-          <Button variant="outline" className="bg-background">
-            <Filter className="w-4 h-4 mr-2" />
-            All Nicotine
-          </Button>
-          <Button variant="outline" className="bg-background">
-            Salt Nic
-          </Button>
-          <Button variant="outline" className="bg-background">
-            Freebase
-          </Button>
-          <Button variant="outline" className="bg-background">
-            In Stock
-          </Button>
-        </div>
+        
 
         {/* Products Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mb-12">
