@@ -15,7 +15,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="py-24 bg-muted/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Badge className="mb-6 bg-primary/20 text-primary border-primary/30">About VapeHub</Badge>
+          <Badge className="mb-6 bg-primary/20 text-primary border-primary/30">About Traplanta</Badge>
           <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 text-balance">
             Your Trusted Partner in Premium Vaping
           </h1>
@@ -34,7 +34,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded with a passion for quality and innovation, VapeHub has been serving the vaping community with
+                  Founded with a passion for quality and innovation, Traplanta has been serving the vaping community with
                   premium products and exceptional service. We understand that every customer has unique preferences,
                   which is why we carefully curate our selection to offer only the finest products.
                 </p>
@@ -124,7 +124,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">Ready to Experience the Difference?</h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Join thousands of satisfied customers who trust VapeHub for their premium vaping needs.
+            Join thousands of satisfied customers who trust Traplanta for their needs.
           </p>
           <Button
             asChild
