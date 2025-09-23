@@ -82,7 +82,7 @@ export const products: Product[] = [
  // Geek Bar Pulse X 25k
 {
   id: "geek-bar-pulse-x-25k",
-  name: "Geek Bar Pulse X (25k Hits)",
+  name: "Geek Bar Pulse X (25k Hits) RARE",
   description: "High-capacity 25,000 puff disposable with rare and in-demand flavors.",
   basePrice: 35,
   pricing: [
@@ -108,8 +108,8 @@ export const products: Product[] = [
   // Geek Bar Pulse X 15k
   {
     id: "geek-bar-pulse-x-15k",
-    name: "Geek Bar Pulse X (15k Hits) RARE",
-    description: "Rare edition 15k puff disposable with multiple exclusive flavors.",
+    name: "Geek Bar Pulse (15k Hits) RARE",
+    description: "15k puff GeekBar Pulse disposable with multiple exclusive flavors.",
     basePrice: 30,
     pricing: [
       { quantity: 1, price: 30, label: "1 for $30" },
