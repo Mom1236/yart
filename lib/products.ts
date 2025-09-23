@@ -28,7 +28,7 @@ export const products: Product[] = [
     ],
     flavors: ["Raspberry Watermelon", "Blue Razz Grape Ice", "Peach Berry", "Scary Berry"],
     status: "preorder",
-    image: "public/off.jpg",
+    image: "/off.jpg",
     category: "disposable",
   },
 
@@ -76,7 +76,7 @@ export const products: Product[] = [
       "Strawberry Cereal Donut Milk",
     ],
     status: "preorder",
-    image: "/fifty-bar-blk.jpg",
+    image: "/fifty.jpeg",
     category: "nicotine",
   },
 
