@@ -36,7 +36,7 @@ export const products: Product[] = [
   {
     id: "lost-mary-mt35000",
     name: "Lost Mary MT35000 Turbo",
-    description: "High-capacity disposable with 35,000 hits and bold flavors.",
+    description: "High-capacity disposable with 35,000 hits and strong flavors.",
     basePrice: 30,
     pricing: [
       { quantity: 1, price: 30, label: "1 for $30" },
