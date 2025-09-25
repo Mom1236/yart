@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"
-import { readJson, writeJson } from "../../lib/storage"
+import { readJson, writeJson } from "../../../lib/storage"
 
 import { randomUUID } from "crypto"
 
