@@ -6,19 +6,19 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
 export default function DashboardPage() {
-  // Example state data
+  const [authorized, setAuthorized] = useState(false)
+  const [inputPass, setInputPass] = useState("")
+  
+  // Replace with a strong secret (can be from env var in production)
+  const ADMIN_PASSWORD = "traplanta2025"
+
   const [sales, setSales] = useState(1250)
   const [orders, setOrders] = useState(87)
   const [revenue, setRevenue] = useState(4250)
   const [profit, setProfit] = useState(1600)
 
   const [editing, setEditing] = useState(false)
-  const [formData, setFormData] = useState({
-    sales,
-    orders,
-    revenue,
-    profit,
-  })
+  const [formData, setFormData] = useState({ sales, orders, revenue, profit })
 
   const handleSave = () => {
     setSales(formData.sales)
@@ -28,29 +28,52 @@ export default function DashboardPage() {
     setEditing(false)
   }
 
+  if (!authorized) {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-black text-white">
+        <div className="bg-neutral-900 p-8 rounded-2xl border border-pink-500/30 shadow-lg w-full max-w-md text-center">
+          <h1 className="text-2xl font-bold text-pink-500 mb-4">Admin Login</h1>
+          <Input
+            type="password"
+            placeholder="Enter Admin Password"
+            value={inputPass}
+            onChange={(e) => setInputPass(e.target.value)}
+            className="mb-4 bg-black border-pink-500/40 text-white"
+          />
+          <Button
+            className="w-full bg-pink-600 hover:bg-pink-700 text-white font-semibold"
+            onClick={() => {
+              if (inputPass === ADMIN_PASSWORD) setAuthorized(true)
+              else alert("Incorrect password")
+            }}
+          >
+            Enter Dashboard
+          </Button>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className="min-h-screen bg-black text-white py-16 px-6">
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">
         Traplanta <span className="text-pink-500">Dashboard</span>
       </h1>
 
-      {/* Stat cards */}
+      {/* Stat Cards */}
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
         <Card className="bg-neutral-900 border border-pink-500/30 p-6 text-center rounded-2xl shadow-lg hover:shadow-pink-500/30 transition">
           <h2 className="text-lg font-semibold text-pink-400 mb-2">Total Sales</h2>
           <p className="text-3xl font-bold">{sales}</p>
         </Card>
-
         <Card className="bg-neutral-900 border border-pink-500/30 p-6 text-center rounded-2xl shadow-lg hover:shadow-pink-500/30 transition">
           <h2 className="text-lg font-semibold text-pink-400 mb-2">Orders</h2>
           <p className="text-3xl font-bold">{orders}</p>
         </Card>
-
         <Card className="bg-neutral-900 border border-pink-500/30 p-6 text-center rounded-2xl shadow-lg hover:shadow-pink-500/30 transition">
           <h2 className="text-lg font-semibold text-pink-400 mb-2">Revenue</h2>
           <p className="text-3xl font-bold">${revenue}</p>
         </Card>
-
         <Card className="bg-neutral-900 border border-pink-500/30 p-6 text-center rounded-2xl shadow-lg hover:shadow-pink-500/30 transition">
           <h2 className="text-lg font-semibold text-pink-400 mb-2">Profit</h2>
           <p className="text-3xl font-bold">${profit}</p>
