@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
-import { readJson, writeJson } from "@/lib/storage"
+import { readJson, writeJson } from "../../lib/storage"
+
 
 type Stats = {
   sales: number
