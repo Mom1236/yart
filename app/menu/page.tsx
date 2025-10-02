@@ -19,9 +19,9 @@ export default function MenuPage() {
 
   const filterOptions = [
     { key: "all", label: "All Products", icon: Filter },
-    { key: "vapes", label: "Vapes" },
     { key: "nicotine", label: "Nicotine" },
     { key: "thc", label: "THC" },
+    { key: "edibles", label: "Edibles" },
   ]
 
   return (
