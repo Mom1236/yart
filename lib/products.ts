@@ -306,7 +306,7 @@ export const products: Product[] = [
       "Watermelon",
     ],
     status: "preorder",
-    image: "/devour.jpg",
+    image: "https://candeliverny.com/wp-content/uploads/2024/06/4318483811-e1724786058135.jpg",
     category: "edibles",
   },
 ]
