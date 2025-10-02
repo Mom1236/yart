@@ -282,6 +282,33 @@ export const products: Product[] = [
     image: "/muha.jpg",
     category: "thc",
   },
+
+  // Devour Sour Edibles
+  {
+    id: "devour-3k",
+    name: "Devour Sour Belts",
+    description: "Very potent sour strips classic flavors and 3,000MG THC.",
+    basePrice: 30,
+    pricing: [
+      { quantity: 1, price: 30, label: "1 for $30" },
+      { quantity: 2, price: 45, label: "2 for $45" },
+      { quantity: 5, price: 100, label: "5 for $100" },
+      { quantity: 10, price: 180, label: "10 for $150" },
+    ],
+    flavors: [
+      "Blueberry",
+      "Green Apple",
+      "Mango",
+      "Pineapple",
+      "Pink Lemonade",
+      "Rainbow",
+      "Strawberry",
+      "Watermelon",
+    ],
+    status: "preorder",
+    image: "/devour.jpg",
+    category: "edibles",
+  },
 ]
 
 export function getProductById(id: string): Product | undefined {
