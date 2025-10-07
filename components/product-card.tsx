@@ -48,17 +48,33 @@ export function ProductCard({ product }: ProductCardProps) {
   }
 
   const getStatusBadge = () => {
-    switch (product.status) {
-      case "in-stock":
-        return <Badge className="bg-green-500/20 text-green-400 border-green-500/30">In Stock</Badge>
-      case "preorder":
-        return <Badge className="bg-primary/20 text-primary border-primary/30">Preorder</Badge>
-      case "sold-out":
-        return <Badge variant="destructive">Sold Out</Badge>
-      default:
-        return null
-    }
+  switch (product.status) {
+    case "in-stock":
+      return (
+        <Badge className="bg-green-600 text-white border border-green-700 rounded-full px-3 py-1 text-xs font-medium shadow-sm">
+          In Stock
+        </Badge>
+      )
+
+    case "preorder":
+      return (
+        <Badge className="bg-primary text-white border border-primary/80 rounded-full px-3 py-1 text-xs font-medium shadow-sm">
+          Preorder
+        </Badge>
+      )
+
+    case "sold-out":
+      return (
+        <Badge className="bg-red-600 text-white border border-red-700 rounded-full px-3 py-1 text-xs font-medium shadow-sm">
+          Sold Out
+        </Badge>
+      )
+
+    default:
+      return null
   }
+}
+
 
   return (
     <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 animate-fade-in bg-card border-border">
