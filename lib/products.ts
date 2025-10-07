@@ -55,30 +55,6 @@ export const products: Product[] = [
     image: "/lost.jpg",
     category: "nicotine",
   },
-
-  // Fifty Bar (BLK Series)
-  {
-    id: "fifty-bar-blk",
-    name: "Fifty Bar (BLK Series)",
-    description: "Disposable vape BLK series with bold dessert and tobacco flavors.",
-    basePrice: 25,
-    pricing: [
-      { quantity: 1, price: 25, label: "1 for $25" },
-      { quantity: 2, price: 45, label: "2 for $45" },
-    ],
-    flavors: [
-      "Blueberry Cereal Donut Milk",
-      "Butterbean",
-      "Cinnamon Funnel Cake",
-      "Gold Tobacco",
-      "Milky Loops",
-      "Raspberry Jam",
-      "Strawberry Cereal Donut Milk",
-    ],
-    status: "preorder",
-    image: "/fifty.jpeg",
-    category: "nicotine",
-  },
  // Geek Bar Pulse X 25k
 {
   id: "geek-bar-pulse-x-25k",
@@ -154,7 +130,7 @@ export const products: Product[] = [
       "Purple Papaya / Blue Berriez / Rz-11",
       "Sour Tangie / NYC Sour / Passion Fruit",
     ],
-    status: "in-stock",
+    status: "preorder",
     image: "/v5.png",
     category: "thc",
   },
