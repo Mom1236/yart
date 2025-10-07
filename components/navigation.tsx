@@ -57,7 +57,7 @@ export function Navigation() {
               )}
             </Link>
             <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold">
-              <Link href="/menu">Preorder Now</Link>
+              <Link href="/cart">Checkout Now</Link>
             </Button>
           </div>
 
