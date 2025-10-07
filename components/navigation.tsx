@@ -17,12 +17,18 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">T</span>
-            </div>
-            <span className="font-heading font-bold text-xl">Traplanta</span>
-          </Link>
+         <Link href="/" className="flex items-center space-x-2" aria-label="Traplanta home">
+  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
+    <img
+      src="/traplantalogo.png"
+      alt="Traplanta Logo"
+      className="h-6 w-6 object-contain"
+      loading="lazy"
+    />
+  </div>
+  <span className="font-heading text-xl font-bold">Traplanta</span>
+</Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
