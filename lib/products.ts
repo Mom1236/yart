@@ -71,7 +71,8 @@ export const products: Product[] = [
     "Blackberry Burst (Blow Pop)",
     "Sour Apple Ice",
     "Blue Razz Ice",
-    "Strawberry Water",
+    "Strawberry Kiwi Ice",
+    "White Peach Raspberry",
     "Strawberry Jam (Jam Edition)",
     "Blackberry Blueberry"
   ],
@@ -143,9 +144,9 @@ export const products: Product[] = [
     basePrice: 30,
     pricing: [
       { quantity: 1, price: 30, label: "1 for $30" },
-      { quantity: 2, price: 55, label: "2 for $55" },
-      { quantity: 5, price: 120, label: "5 for $120" },
-      { quantity: 10, price: 210, label: "10 for $210" },
+      { quantity: 2, price: 55, label: "2 for $50" },
+      { quantity: 5, price: 120, label: "5 for $110" },
+      { quantity: 10, price: 210, label: "10 for $180" },
     ],
     flavors: [
       "Cherry Watermelon",
