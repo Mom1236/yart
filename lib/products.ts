@@ -115,9 +115,9 @@ export const products: Product[] = [
     description: "Premium THC disposable pod with multiple exotic blends.",
     basePrice: 35,
     pricing: [
-      { quantity: 1, price: 35, label: "1 for $35" },
-      { quantity: 2, price: 60, label: "2 for $60" },
-      { quantity: 10, price: 225, label: "10 for $225" },
+      { quantity: 1, price: 35, label: "1 for $30" },
+      { quantity: 2, price: 60, label: "2 for $55" },
+      { quantity: 10, price: 225, label: "10 for $190" },
     ],
     flavors: [
       "Artic Frost / Rocket Pop / Tropic Haze",
