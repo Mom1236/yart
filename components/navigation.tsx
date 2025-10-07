@@ -18,7 +18,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
          <Link href="/" className="flex items-center space-x-2" aria-label="Traplanta home">
-  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
+ <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-transparent">
     <img
       src="/traplantalogo.png"
       alt="Traplanta Logo"
