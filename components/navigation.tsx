@@ -22,7 +22,7 @@ export function Navigation() {
     <img
       src="/traplantalogo.png"
       alt="Traplanta Logo"
-      className="h-6 w-6 object-contain"
+      className="h-9 w-9 object-contain"
       loading="lazy"
     />
   </div>
