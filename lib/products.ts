@@ -74,10 +74,10 @@ export const products: Product[] = [
       "Pink & Blue (PREORDER)",
       "Orange Slush (PREORDER)",
       "Blue Rancher (PREORDER)",
-    "Sour Straws",
-    "Blackberry B-Pop",
+    "Sour Straws (PREORDER)",
+    "Blackberry B-Pop (PREORDER)",
     "Strawberry Kiwi Ice",
-    "White Peach Raspberry",
+    "White Peach Raspberry (PREORDER)",
     "Strawberry Jam (Jam Edition)",
     "Blackberry Blueberry"
   ],
