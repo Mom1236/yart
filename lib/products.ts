@@ -26,7 +26,7 @@ export const products: Product[] = [
       { quantity: 1, price: 30, label: "1 for $30" },
       { quantity: 2, price: 55, label: "2 for $55" },
     ],
-    flavors: ["Blue Razz Grape Ice (PREORDER)","Peach Berry (PREORDER)", "Scary Berry (PREORDER)", "Raspberry Watermelon"],
+    flavors: ["Blue Razz Grape Ice (PREORDER)","Peach Berry (PREORDER)", "Scary Berry (PREORDER)", "Raspberry Watermelon (1 LEFT)"],
     status: "in-stock",
     image: "/off.jpg",
     category: "nicotine",
