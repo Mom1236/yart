@@ -243,7 +243,7 @@ export const products: Product[] = [
     id: "new-muha-switch",
     name: "GEN 3 Muha Meds (NEW)",
     description: "New Muha Meds Featuring a New Mini Screen",
-    basePrice: 25,
+    basePrice: 35,
     pricing: [
       { quantity: 1, price: 30, label: "1 for $35" },
       { quantity: 2, price: 45, label: "2 for $60" },
@@ -253,7 +253,7 @@ export const products: Product[] = [
     flavors: [
       "Horchata (I)",
       "Galactic Diesel (I)",
-      "Blue Slush",
+      "Blue Slushie (H)",
       "Sweet Dreams OG (I)",
       "Frozen Pomegranate (S) ",
       "Bubblegum Burst (S)",
