@@ -238,6 +238,34 @@ export const products: Product[] = [
     image: "/ace.jpg",
     category: "thc",
   },
+// Muha Meds
+  {
+    id: "new-muha-switch",
+    name: "GEN 3 Muha Meds (NEW)",
+    description: "New Muha Meds Featuring a New Mini Screen",
+    basePrice: 25,
+    pricing: [
+      { quantity: 1, price: 30, label: "1 for $35" },
+      { quantity: 2, price: 45, label: "2 for $60" },
+      { quantity: 5, price: 100, label: "5 for $125" },
+      { quantity: 10, price: 180, label: "10 for $210" },
+    ],
+    flavors: [
+      "Horchata (I)",
+      "Galactic Diesel (I)",
+      "Blue Slush",
+      "Sweet Dreams OG (I)",
+      "Frozen Pomegranate (S) ",
+      "Bubblegum Burst (S)",
+      "Habibi (S)",
+      "Pineapple Paradise (H)",
+     "Watermelon Moonshine (H)",
+    
+    ],
+    status: "in-stock",
+    image: "/newha.jpg",
+    category: "thc",
+  },
 
   // Muha Meds
   {
