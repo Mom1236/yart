@@ -155,7 +155,7 @@ export const products: Product[] = [
       { quantity: 10, price: 180, label: "10 for $180" },
     ],
     flavors: [
-      "Cherry Limade (OUT OF STOCK)",
+      "Cherry Limade",
       "Fruity Pebbles",
       "London Pound Cake",
       "Blueberry Banana Bread",
@@ -176,7 +176,7 @@ export const products: Product[] = [
       "Gelato",
       "Forbidden Punch",
     ],
-    status: "in-stock",
+    status: "sold-out",
     image: "/calis.jpg",
     category: "thc",
   },
