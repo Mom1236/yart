@@ -302,7 +302,7 @@ export const products: Product[] = [
       "PRE-ORDERS",
     ],
     status: "pre-order",
-    image: "/madlabs.jpg",
+    image: "/madlab.jpg",
     category: "thc",
   },
 
